@@ -1,0 +1,28 @@
+@mixin font-size($size: 14) {
+	font-size: ($size / $root-font-size) + rem !important;
+}
+
+@mixin line-height($size: 14) {
+	line-height: ($size / $root-font-size) + rem !important;
+}
+
+@mixin placeholder-color($color) {
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+
+	&::-moz-placeholder {
+		color: $color;
+	}
+
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
+
+@media (max-width: 991px) {
+	.px-gutter {
+		padding-left: var(--porto-res-spacing, 20px) !important;
+		padding-right: var(--porto-res-spacing, 20px) !important
+	}
+}

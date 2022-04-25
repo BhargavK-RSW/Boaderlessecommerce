@@ -1,0 +1,105 @@
+/*
+Theme Name: Porto Child
+Theme URI: http://www.portotheme.com/wordpress/porto
+Author: SW-THEMES
+Author URI: http://www.portotheme.com/
+Description: Porto Responsive Wordpress + eCommerce Theme.
+Version: 1.1
+Template: porto
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+
+*/
+
+@import url("../porto/style.css");
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+.selected_combination{
+    margin-top:10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.selected_combination table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.selected_combination thead {
+    padding: 1px;
+    background-color: red;
+    text-align: center;
+    color:white;
+}
+
+.selected_combination th, td {
+    padding: 1px;
+    border-bottom: 1px solid #0066ff;
+    text-align: center;
+}
+.selected_combination  caption {
+    color: #fff;
+    background-color:#0066ff;
+    text-align: center;
+    caption-side: top !important;
+}
+
+ol, ul {
+    list-style: none;
+}
+.spu-list {
+    padding: 15px;
+    overflow: hidden;
+}
+.spu-list .item {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.panel-title {
+    position: relative;
+    padding-left: 15px;
+    border-bottom: 1px solid #e4d6d6;
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+    line-height: 64px;
+    height: 100%;
+}
+
+#header .menu-custom-block i .avatar {
+    width: 24px !important;
+    height: 24px !important;
+}
+#header .main-menu-wrap .main-menu .menu-custom-block a, #header .main-menu-wrap .main-menu .menu-custom-block span {
+    padding: 10px 14px 10px 13px;
+    background: #f4631b;
+    color: #fff !important;
+    margin: 6.7px 4px;
+}
+#header.sticky-header .main-menu > li.menu-item > a, #header.sticky-header .main-menu > li.menu-custom-content a {
+    line-height: 2.1;
+}
+hr.acchr {
+    margin: 7px 0 0 0;
+}
+
+.dropdown-toggle:after {
+    transform: rotate(0deg) !important;
+}
+a#dropdownMenuLinkAcc {
+    background: #f4631b;
+    color: #fff;
+    padding: 12px 15px;
+}
+div#acc1 {
+    margin: 11.7px 0;
+}
+.searchform .btn i{line-height:0.7;padding:0.5rem 0.4rem}
+.image-upload img{width: 30px; margin-top: 6px;cursor: pointer;}
